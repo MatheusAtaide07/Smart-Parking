@@ -6,3 +6,4 @@ The main objective of the project is retrieve and relay useful data around a par
 The project uses an esp32 alongside two HC-SR40 ultrassonic sensor to determine if a parking spot is occupied or vacant and send the collected data to a firebase real-time database. The circuit can be configured to:
 - predetermine the parking spot group(common or disabled).
 - alter the distance the car is required to be from the circuit so the spot is computed as occupied.
+in the file Detec.ino further explanation on the code running those features are included.
