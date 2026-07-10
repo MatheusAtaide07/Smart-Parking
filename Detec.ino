@@ -62,7 +62,6 @@ void sendtoFirebase() {
     Serial.println(fbdo.errorReason());
   }
 }
-
 void setup() {
   Serial.begin(115200);
 
